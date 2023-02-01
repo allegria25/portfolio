@@ -6,6 +6,7 @@ anim.reveal("nav", {
     origin: "top",
     distance: "400px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
+    reset:'true',
  
   });
 
@@ -16,7 +17,8 @@ anim.reveal("nav", {
     origin: "left",
     distance: "50px",
     easing: "ease-in-out",
-    reset : 'true'
+    reset : 'true',
+    reset:'true'
     
   });
 
@@ -26,6 +28,7 @@ anim.reveal("nav", {
     origin: "left",
     distance: "200px",
     easing: "ease-in-out",
+    reset:'true'
 
   });
 
@@ -34,6 +37,7 @@ anim.reveal("nav", {
     origin: "top",
     distance: "50px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
+    reset:'true'
  
   });
 
@@ -43,7 +47,9 @@ anim.reveal("nav", {
     duration: 1000,
     origin: "left",
     distance: "100px",
-    easing: "ease-in-out"
+    easing: "ease-in-out",
+    reset:'true'
+    
   });
 
   anim.reveal("footer", {
@@ -51,6 +57,7 @@ anim.reveal("nav", {
     origin: "top",
     distance: "50px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
+    reset:'true'
   });
 
 let darkMode = false;

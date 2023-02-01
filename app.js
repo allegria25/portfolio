@@ -11,44 +11,45 @@ anim.reveal("nav", {
 
 
   anim.reveal("header .header-right", {
-    delay : 1000,
+    delay : 500,
     duration: 3000,
     origin: "left",
-    distance: "300px",
+    distance: "50px",
     easing: "ease-in-out",
     reset : 'true'
+    
   });
 
   anim.reveal("header .header-left", {
     delay : 2000,
     duration: 3000,
     origin: "left",
-    distance: "300px",
+    distance: "200px",
     easing: "ease-in-out",
 
   });
 
   anim.reveal(".about", {
-    delay : 2500,
+    delay : 500,
     origin: "top",
-    distance: "400px",
+    distance: "50px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
  
   });
 
 
   anim.reveal(".image-card", {
-    delay : 3000,
+    delay : 1000,
     duration: 3000,
     origin: "left",
-    distance: "300px",
+    distance: "100px",
     easing: "ease-in-out"
   });
 
   anim.reveal("footer", {
-    delay : 3000,
+    delay : 1000,
     origin: "top",
-    distance: "400px",
+    distance: "50px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
  
   });

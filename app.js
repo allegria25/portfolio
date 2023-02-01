@@ -12,7 +12,7 @@ anim.reveal("nav", {
 
   anim.reveal("header .header-right", {
     delay : 500,
-    duration: 3000,
+    duration: 2000,
     origin: "left",
     distance: "50px",
     easing: "ease-in-out",

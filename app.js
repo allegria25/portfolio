@@ -12,7 +12,7 @@ anim.reveal("nav", {
 
   anim.reveal("header .header-right", {
     delay : 500,
-    duration: 2000,
+    duration: 1000,
     origin: "left",
     distance: "50px",
     easing: "ease-in-out",
@@ -21,8 +21,8 @@ anim.reveal("nav", {
   });
 
   anim.reveal("header .header-left", {
-    delay : 2000,
-    duration: 3000,
+    delay : 500,
+    duration: 1000,
     origin: "left",
     distance: "200px",
     easing: "ease-in-out",
@@ -39,21 +39,19 @@ anim.reveal("nav", {
 
 
   anim.reveal(".image-card", {
-    delay : 1000,
-    duration: 3000,
+    delay : 500,
+    duration: 1000,
     origin: "left",
     distance: "100px",
     easing: "ease-in-out"
   });
 
   anim.reveal("footer", {
-    delay : 1000,
+    delay : 500,
     origin: "top",
     distance: "50px",
     easing: "cubic-bezier(0.5, 0, 0, 1)",
- 
   });
-
 
 let darkMode = false;
 

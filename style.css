@@ -126,6 +126,8 @@ header .header-right img{
     height: 200px;
     width: 400px;
     border-radius: 20px;
+
+    
     
 }
 
@@ -161,6 +163,10 @@ header .header-right img{
     .links span{
         font-size: 15px;
     }
+    nav ul #dark-light-mode{
+        color: red;
+        font-size: 13px;
+    }
 
    
 
@@ -186,6 +192,11 @@ header .header-right img{
     }
 
     nav h1{
+        font-size: 13px;
+    }
+
+    nav ul #dark-light-mode{
+        color: red;
         font-size: 13px;
     }
 }

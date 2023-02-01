@@ -45,6 +45,11 @@ nav ul li{
 nav ul #dark-light-mode{
     color: red;
     font-size: 13px;
+    margin-left: 20px;
+}
+
+nav ul span{
+    width: 5px;
 }
 
 
